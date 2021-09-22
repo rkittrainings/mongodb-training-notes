@@ -1,0 +1,21 @@
+-- MongoDB: MongoDB is NoSql. 
+Url: https://www.mongodb.com/try/download/enterprise
+Choose Try Free -> Choose Enterprise -> Version
+Create data/ , db/
+Run Commands: mongod, mongo
+> npm install --save mongodb
+
+dbname: shopin
+colname: products
+
+products
+[
+    { _id: 154, name: 'dell' }, 
+    { _id: 155, name: 'acer' }, 
+    { _id: 156, name: 'lenovo' }
+]
+
+orders 
+[
+    { _id: 1, product_id: 154, status: 'active' }
+]
